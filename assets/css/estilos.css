@@ -1,0 +1,119 @@
+button {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkblue;
+  }
+  
+  #boton2 {
+    display: none;
+    margin-top: 20px;
+    background-color: green;
+  }
+
+  #boton3 {
+    display: none;
+    margin-top: 40px;
+    background-color: yellow;
+  }
+
+  #boton4 {
+    display: none;
+    margin-top: 60px;
+    background-color: orange;
+  }
+
+  #boton5 {
+    display: none;
+    margin-top: 80px;
+    background-color: red;
+  }
+
+  #boton6 {
+    display: none;
+    margin-top: 100px;
+    background-color: purple;
+  }
+  
+
+  
+  .container2 {
+	  display: flex;
+	  flex-direction: row;
+	  align-items: center;
+	  justify-content: center;
+	  height: 100vh;
+	  width: 100vw;
+	  cursor: pointer;
+	  perspective: 1000px;
+  }
+  .card1 {
+	  display: flex;
+	  flex-direction: row;
+	  align-items: center;
+	  justify-content: center;
+	  height: 200px;
+	  width: 250px;
+	  background-color: #ffffff;
+	  transform-style: preserve-3d;
+	  transition: transform 1s;
+	  border: none;
+	  
+  }
+  .card1:hover {
+	  transform: rotateY(180deg);
+  }
+  .card__front1 {
+	  position: absolute;
+	  display: flex;
+	  backface-visibility: hidden;
+	  align-items: center;
+	  height: 200px;
+	  width: 200px;
+	  background-size: cover;
+	  border: none;
+	  justify-content: center;
+	  font: oblique bold 120% cursive;
+  }
+  .card__back1 {
+	  position: absolute;
+	  backface-visibility: hidden;
+	  height: 200px;
+	  width: 250px;
+	  background-color: #ffffff;
+	  transform: rotateY(180deg);
+	  border: 1px solid #cccccc;
+	  padding: 20px;
+	  box-sizing: border-box;
+	  color: #333333;
+	  text-align: center;
+	 
+	  
+  }
+
+  #images{
+	height: 200px;
+	  width: 200px;
+  }
+  #images1{
+	height: 200px;
+	  width: 250px;
+  }
+
+  .p{
+	font: oblique bold 120% cursive;
+  }
+
+  .p1{
+    color: white;
+    font: oblique bold 120% cursive;
+  
+    font-size: 16px;
+  }
